@@ -1,0 +1,19 @@
+{
+  "name": "capeveil",
+  "version": "1.0.0",
+  "description": "Project that aims at taking down local surveillance (MDM, DNS logging, etc) using a custom DNS server",
+  "main": "index.js",
+  "type": "module",
+  "repository": "https://github.com/informathemusic/capeveil",
+  "author": "InforMatheMusic",
+  "license": "Hippocratic-2.1",
+  "private": false,
+  "dependencies": {
+    "ansi-colors": "^4.1.1",
+    "boxen": "^6.2.1",
+    "dns2": "^2.0.1",
+    "is-glob": "^4.0.3",
+    "picomatch": "^2.3.0",
+    "yaml": "^1.10.2"
+  }
+}
